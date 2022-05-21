@@ -31,6 +31,7 @@ pin.default = ""
 lang = s:option(Value, "language", translate("Language"))
 lang:value("pl", "Polski")
 lang:value("en", "English")
-lang.default = "pl"
+lang:value("zh-cn", "中文")
+lang.default = "zh-cn"
 
 return m
